@@ -1,7 +1,9 @@
 import openai
 import streamlit as st
+import os
 
-openai.api_key = st.secrets["OPENAI_API_KEY"]
+api_key = os.environ.get("OPENAI_API_KEY")
+openai.api_key = api_key
 
 def generate_recommendations(prompt):
     completions = openai.Completion.create(
