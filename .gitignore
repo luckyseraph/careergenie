@@ -1,0 +1,30 @@
+# .gitignore
+
+# Logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules/
+
+# Environment variables
+.env
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor backups
+*.swp
+*~
+*.bak
+
+# Miscellaneous
+*.lock
+*.DS_Store
+.npm
