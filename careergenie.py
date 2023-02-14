@@ -2,7 +2,7 @@ import openai
 import streamlit as st
 import os
 
-api_key = os.environ.get("api_key.openai")
+api_key = os.environ.get("OPENAI_API_KEY")
 openai.api_key = api_key
 
 def generate_recommendations(prompt):
